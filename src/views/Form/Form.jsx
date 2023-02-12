@@ -120,7 +120,7 @@ const Form = () => {
 
     const submitHandler = (event) =>{
         event.preventDefault();
-        axios.post("http://localhost:3001/pokemons", form)
+        axios.post("/pokemons", form)
         .then(res=> {
             alert("Pokemon creado con éxito");
             history.push("/pokemons");
