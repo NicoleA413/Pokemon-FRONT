@@ -1,0 +1,72 @@
+.nav{
+    width: 80%;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+}
+
+.paginado{
+    font-family: 'Jack in the Box';
+    color: rgb(192, 192, 192);
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: rgba(240, 255, 255, 0.336);
+    padding-left: 10px;
+}
+
+[name="top"]{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.number{
+    background-color: rgb(59, 59, 59);
+    padding: 5px;
+}
+.number:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(120%);
+}
+
+.active{
+    cursor: pointer;
+    color: white;
+    transform: scale(120%);
+    background-color: rgb(85, 5, 5);
+    padding: 5px;
+}
+
+.button{
+    font-size: 22px;
+    font-family: 'Banana';
+    color: rgb(192, 192, 192);
+    background-color: rgb(85, 5, 5);
+    border-color: rgb(85, 5, 5);
+    border-radius: 0px 15px;
+}
+
+[id="next"]{
+    border-radius: 15px 0px;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(131, 8, 8);
+    border-color: rgb(131, 8, 8);
+}
+
+.container{
+    position: relative;
+    left:5%;
+    width: 90%;
+    background-color: rgb(223, 223, 203);
+    border-radius: 60px;
+    border-style: groove;
+    border-color:goldenrod;
+}

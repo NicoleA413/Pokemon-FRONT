@@ -1,0 +1,151 @@
+/* .mainContainer{
+background-color: rgb(0, 0, 0);
+} */
+
+.titleBack{
+    display: inline-block;
+    background-color: rgba(240, 248, 255, 0.74);
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    top:105px;
+    left:470px;
+    transform: rotate(10deg);
+    border-radius: 80px 40px;
+}
+
+.title{
+    font-family: 'Pokemon Solid';
+    font-size: 60px;
+    display: flex;
+    position: relative;
+    height: 40px;
+    transform: rotate(-10deg);
+    top: -83px;
+    left: 9px;
+    color: rgb(182, 13, 13);
+    letter-spacing: 2px;
+} 
+
+.container{
+    font-size: 25px;
+    color: rgb(109, 14, 14);
+    background-color: rgb(243, 215, 124);
+    font-family: 'Purple Smile';
+    height: 123px; 
+}
+
+.FilterP{
+    position: relative;
+    top: 0px;
+    left: 400px;
+}
+
+.selectContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    position: relative;
+    top: -62px;
+}
+
+.filterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px;
+    margin-left: 300px;
+}
+
+select:hover{
+    cursor: pointer;
+}
+.select{
+    font-family: 'Banana';
+    font-size: 17px;
+    position: relative;
+    top: -37px;
+    background-color: rgb(102, 114, 223);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
+.selectType{
+    background-color: rgb(102, 114, 223);
+    font-family: 'Banana';
+    font-size: 17px;
+    position: relative;
+    top: -37px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.popupButton{
+    background-color: rgb(102, 114, 223);
+    border-color: rgb(102, 114, 223);
+    border-radius: 10px;
+    font-family: 'Banana';
+    font-size: 20px;
+    position: relative;
+    top:-41px;
+}
+
+.popupButton:hover{
+    background-color: rgb(88, 88, 88);
+    border-color: rgb(88, 88, 88);
+}
+
+.popupButtonType{
+    border-radius: 10px;
+    font-family: 'Banana';
+    font-size: 20px;
+    position: relative;
+    top:-41px;
+    outline-color: inherit;
+}
+
+
+.popupButtonType:hover{
+    cursor: pointer;
+    background-color: rgb(88, 88, 88);
+    border-color: rgb(88, 88, 88);
+}
+
+.filterTitle:hover{
+cursor:default;
+}
+
+.error{
+    background-image: url("../../styles/images/fainted\ Tepig.png");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: bottom;
+    background-size: contain;
+    height: 550px;
+    width: 400px;
+    color: beige;
+    position: absolute;
+    left:460px;
+    font-family: 'Vanilla Caramel';
+    letter-spacing: 2px;
+}
+
+.errorButton{
+    font-size: 15px;
+    font-family: 'ADELIA';   
+    font-weight: bold;
+    color: rgb(23, 26, 207);
+    padding: 5px 15px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(216, 191, 48);
+    background-color: rgb(216, 191, 48);
+}
+
+.errorButton:hover{
+    cursor: pointer;
+    transform:rotate(3deg);
+}

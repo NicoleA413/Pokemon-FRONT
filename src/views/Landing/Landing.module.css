@@ -1,0 +1,51 @@
+.background{
+    background-image: url('../../styles/images/BANNER.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 40px;
+    font-family: 'Pokemon Hollow';
+    position: absolute;
+    top: 80px;
+}
+
+.container{
+    background-color: rgba(112, 112, 112, 0.356);
+    width: 800px;
+    height: 250px;
+    margin: auto;
+    border-radius: 70px;
+    position: absolute;
+    top:100px;
+    left: 260px;
+}
+
+.title{
+    text-decoration:underline;
+    position: absolute;
+    top: -100px;
+    left: 170px;
+    letter-spacing: 6px;
+}
+
+.button{
+    font-size: 28px;
+    font-family:'ADELIA';
+    color: rgba(245, 245, 232, 0.87);    
+    border-width: 8px;
+    border-radius: 20px;
+    border-color: rgb(196, 28, 28);
+    background-color: rgb(196, 28, 28);
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top: 150px;
+    left: 330px;
+}
+.button:hover{
+    background-color: rgb(143, 13, 13);
+    border-color: rgb(143, 13, 13);
+    color: rgba(245, 245, 232, 0.507);
+}

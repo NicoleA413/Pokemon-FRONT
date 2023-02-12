@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -------------COLORES TIPO----------------------------------------------- */
+[name="normal"]{
+  background-color: #A8A090; 
+}
+[name="fighting"]{
+  background-color: #A05038; 
+}
+[name="flying"]{
+  background-color: #98A8F0; 
+}
+[name="poison"]{
+  background-color: #B058A0; 
+}
+[name="ground"]{
+  background-color: #E9D6A4; 
+}
+[name="rock"]{
+  background-color: #B8A058; 
+}
+[name="bug"]{
+  background-color: #A8B820; 
+}
+[name="ghost"]{
+  background-color: #6060B0; 
+}
+[name="steel"]{
+  background-color: #A8A8C0; 
+}
+[name="fire"]{
+  background-color: #F05030; 
+}
+[name="water"]{
+  background-color: #3899F8; 
+}
+[name="grass"]{
+  background-color: #78C850; 
+}
+[name="electric"]{
+  background-color: #F8D030; 
+}
+[name="psychic"]{
+  background-color: #F870A0; 
+}
+[name="ice"]{
+  background-color: #58C8E0; 
+}
+[name="dragon"]{
+  background-color: #7860E0; 
+}
+[name="dark"]{
+  background-color: #7A5848; 
+}
+[name="fairy"]{
+  background-color: #E79FE7; 
+}
+[name="unknown"]{
+  background-color: #7a7a7a; 
+}
+[name="shadow"]{
+  background-color: #262894; 
+}
+/* ---------------------------------------------------------------------- */

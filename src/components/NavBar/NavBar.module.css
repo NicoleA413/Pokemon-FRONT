@@ -1,0 +1,68 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(134, 12, 12);
+    height: 80px;
+}
+
+.buttonNav{
+    font-size: 25px;
+    font-family: 'ADELIA';   
+    font-weight: bold;
+    color: rgb(23, 26, 207);
+    padding: 5px 15px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(216, 191, 48);
+    background-color: rgb(216, 191, 48);
+}
+.buttonNav:hover{
+    cursor: pointer;
+    transform:rotate(3deg);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 490px;
+}
+
+.reload{
+    height: 22px;
+}
+.buttonReload{
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.63); 
+    background-color: rgba(67, 69, 207, 0.842);
+    border-color: rgba(67, 69, 207, 0.842);
+    border-radius: 25px;
+}
+.buttonReload:hover{
+    cursor: pointer;
+    background-color: rgb(34, 35, 148);
+    border-color: rgb(34, 35, 148);;
+}
+
+.buttonSearch{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'ADELIA';
+    padding: 8px 10px;
+    color: rgb(216, 191, 48);
+    border-color: rgb(23, 26, 207);
+    background-color: rgb(23, 26, 207);
+    border-radius: 20px;
+}
+.buttonSearch:hover{
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.input{
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Banana';
+}

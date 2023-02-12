@@ -1,0 +1,150 @@
+.spans{
+    list-style: none;
+    font-size: 15px;
+    position: absolute;
+    top:85px;
+    left:30px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    color: rgb(170, 22, 22);
+    font-weight: bold;
+}
+
+.span{
+    margin:7px;
+}
+
+[id="typesSpan"]{
+    position: absolute;
+    top:250px;
+}
+[id="imageSpan"]{
+    position: absolute;
+    top:300px;
+}
+
+.mainContainer{
+    background-color: rgb(245, 245, 230);
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    left:5%;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 5px;
+    border-style: double;
+    border-color: rgb(85, 38, 11);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.title{
+    font-family: 'Jack in the Box';
+    letter-spacing: 2px;
+    font-size: 28px;
+    color: rgb(202, 148, 32);
+    position: relative;
+    top: -30px;
+}
+
+.form{
+    background-color: rgba(255, 0, 0, 0.411);
+    width: fit-content;
+    height: 350px;
+    border: 2px dashed black;
+    padding-inline: 20px;
+    position:relative;
+    top:-58px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0px;
+    font-size: 22px;
+}
+
+.label{
+    font-family: 'Vanilla Caramel';
+}
+
+.label:hover{
+    cursor: pointer;
+}
+
+.select{
+    margin: 12px 0px;
+    height: 27px;
+    background-color: rgb(102, 114, 223);
+    font-family: 'Banana';
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.input{
+    height: 20px;
+}
+
+.buttonList{
+    list-style: none;
+    height: 10px;
+    position: relative;
+    top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.popUpButtons{
+    border-radius: 10px;
+    font-family: 'Banana';
+    font-size: 17px;
+    outline-color: inherit;
+}
+
+.popUpButtons:hover{
+    cursor: pointer;
+    background-color: rgb(88, 88, 88);
+    border-color: rgb(88, 88, 88);
+}
+
+.button{
+    margin-top: 30px;
+    position: relative;
+    top:10px;
+    left:110px;
+    width: 100px;
+    font-family: 'Purple Smile';
+    font-size: 20px;
+    background-color: goldenrod;
+    border-color: goldenrod;
+    border-radius: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(159%);
+    background-color: rgb(179, 8, 8);
+    border-color: rgb(179, 8, 8);
+}
+
+.Eevee{
+    position: absolute;
+    bottom: 30px;
+    right: 70px;
+    transform: scaleX(-1);
+    width: 200px;
+}
+
+.Bulbasaur{
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    width: 200px;
+}

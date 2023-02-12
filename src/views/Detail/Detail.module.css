@@ -1,0 +1,214 @@
+.mainContainer{
+    background-color: rgb(245, 245, 230);
+    height: 84%;
+    width: 90%;
+    position: absolute;
+    left:5%;
+    margin-top: 12px;
+    border-radius: 30px;
+    border: 5px;
+    border-style: double;
+    border-color: rgb(85, 38, 11);
+}
+
+.container{
+    background-color: rgba(42, 98, 218, 0.5);
+    height: 95%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:2%;
+    left: 15%;
+    border-radius: 70px;
+    border-style: ridge;
+    border-color: goldenrod;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 450px;
+    margin:7px;
+    padding-bottom: 42px;
+    border-radius: 40px;
+    position: relative;
+    left: 1px; 
+}
+
+.imageContainer{
+    box-sizing: border-box;
+    background-color: rgba(245, 218, 143, 0.664);
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 30px; 
+    border-style: dashed;
+    border-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    box-sizing: border-box;
+    padding:10px;
+    width: 300px;
+    height: 300px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 35px;
+    font-family: 'Pokemon Solid';
+    letter-spacing: 3px;
+}
+
+.name:hover{
+    cursor: default;
+}
+
+.typesContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.types{
+    display: inline;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'Banana';
+    font-size: 23px;
+    padding: 2px 10px;
+}
+
+.types:hover{
+    cursor:default;
+}
+
+.id{
+    margin-top: 5px;
+    font-family: 'Vanilla Caramel';
+    font-size: 20px;
+    text-align: center;
+}
+
+.stats{
+    background-color: rgba(168, 16, 16, 0.733);
+    width: 380px;
+    height: 500px;
+    position: relative;
+    top:-475px;
+    right: -470px;
+    border-radius: 20px;
+    font-family: 'Purple Smile';
+    letter-spacing: 2px;
+}
+.statsRow{
+    position: relative;
+    top:8px;
+    left:-170px;
+    text-align:center;
+}
+.graph{
+    width: 0px;
+    height: 20px;
+    background-color: rgb(18, 18, 187);
+    transition: width 0.5s;
+    position: relative;
+    top:-24px;
+    right:-205px;
+    border-radius: 30px;
+}
+
+.statsTitle{
+    position: relative;
+    top:-5px;
+    left: 170px;
+}
+
+.statsNumbers{
+    font-size: 20px;
+}
+
+.body{
+    background-color: rgba(194, 182, 22, 0.774);
+    width: 340px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 12px;
+    position: absolute;
+    bottom:60px;
+    right:29px;
+    font-family: 'Purple Smile';
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.buttonsContainer{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    bottom:5px;
+    left: 92px;
+}
+
+.buttons{
+    font-size: 15px;
+    font-family: 'Purple Smile';
+    border-radius: 10px;
+}
+
+[id="delete"]{
+    background-color: rgb(163, 14, 14);
+    border-color: rgb(163, 14, 14);
+    color:rgba(202, 202, 202, 0.856);
+}
+
+[id="delete"]:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    background-color: rgb(199, 19, 19);
+    border-color: rgb(199, 19, 19);
+    color:white;
+}
+
+[id="edit"]{
+    background-color: rgb(40, 134, 12);
+    border-color: rgb(40, 134, 12);
+    color:rgba(39, 39, 39, 0.856);
+}
+
+[id="edit"]:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    background-color: rgb(61, 187, 22);
+    border-color: rgb(61, 187, 22);
+    color:rgb(0, 0, 0);
+}
+
+.Pikachu{
+    width: 180px;
+    position: absolute;
+    bottom: 17px;
+    left:-185px;
+}
+
+.Eevee{
+    width: 150px;
+    position: absolute;
+    bottom: 28px;
+    right:-170px;
+}
+
+.pokeball{
+    margin: 50px;
+    height: 200px;
+    width: 200px;
+}
